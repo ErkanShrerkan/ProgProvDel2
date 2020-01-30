@@ -10,7 +10,7 @@ namespace Prov2
     {
         public Clean()
         {
-            passengers = generator.Next(1, 4);
+            passengers = generator.Next(1, 4); // slumpar mellan 1 och 4 (lägsta 1 och högsta blir 3)
             contrabandAmount = 0;
         }
     }

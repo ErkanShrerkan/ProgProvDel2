@@ -10,7 +10,7 @@ namespace Prov2
     {
         public Contraband()
         {
-            passengers = generator.Next(1, 5);
+            passengers = generator.Next(1, 5); // lägst 1 och högst 4
             contrabandAmount = generator.Next(1, 5);
         }
     }

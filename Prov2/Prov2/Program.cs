@@ -43,7 +43,7 @@ namespace Prov2
                 else Console.WriteLine("That car has already been checked!");
 
                 Console.WriteLine("Press [Enter] to continue");
-                Console.ReadLine();
+                Console.ReadLine(); // pausar spelet och väntar på input
                 Console.Clear();
             }
         }
