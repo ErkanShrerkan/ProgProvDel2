@@ -58,7 +58,7 @@ namespace Prov2
             }
             for (int i = 0; i < amount; i++)
             {
-                Thread.Sleep(37); // minskar risken att bilar blir samma
+                Thread.Sleep(13); // minskar risken att bilar blir samma
 
                 if (gen.Next(0, 100) > 60) // 60 procent chans för ren bil
                 {
